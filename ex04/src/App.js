@@ -8,7 +8,7 @@ setLocalStorage = () => {
 
 getLocalStorage = () => {
   let myLocalStorageData = localStorage.getItem('Arena');
-  
+  return myLocalStorageData;
 }
 
   render() {
